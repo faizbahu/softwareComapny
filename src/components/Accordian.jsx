@@ -23,7 +23,7 @@ const Accordion = () => {
     },
   ]
   return (
-    <div className="w-full min-h-screen bg-[#121212] flex justify-center items-center p-4">
+    <div className="w-full bg-[#121212] flex justify-center items-center p-4">
       <div className="max-w-xl w-full py-16">
         <div className="mb-3 text-center lg:text-left">
           <span className="text-xs font-medium bg-[#2c2d33] text-gray-300 px-3 py-1 rounded-full">

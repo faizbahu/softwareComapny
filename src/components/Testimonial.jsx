@@ -50,7 +50,7 @@ export default function TestimonialSection() {
   const currentTestimonial = testimonials[currentIndex]
 
   return (
-    <div className="bg-[#1C1D20] min-h-screen py-24 px-4 md:px-8 lg:px-16 flex items-center">
+    <div className="bg-[#1C1D20]  py-24 px-4 md:px-8 lg:px-16 flex items-center">
       <div className="max-w-7xl mx-auto w-full">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16 items-center">
           {/* Left side - Image */}

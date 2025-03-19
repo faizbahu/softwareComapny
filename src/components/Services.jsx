@@ -34,7 +34,7 @@ export default function ServicesSection() {
   ]
 
   return (
-    <div className="bg-[#111112] min-h-screen py-16 px-4 relative overflow-hidden">
+    <div className="bg-[#111112] py-16 px-4 relative overflow-hidden">
       {/* Background Grid Pattern */}
       <div className="absolute inset-0 opacity-10">
         <div
@@ -75,7 +75,7 @@ export default function ServicesSection() {
 
         {/* Explore More Button */}
         <div className="flex justify-center">
-          <button className="bg-[#4a84ff] hover:bg-[#4a84ff]/90 text-black font-medium py-3 px-8 rounded-md transition-colors">
+          <button className="cursor-pointer mt-8 bg-blue-500 hover:bg-blue-600 text-black px-8 py-3 rounded-md font-medium">
             Explore More
           </button>
         </div>

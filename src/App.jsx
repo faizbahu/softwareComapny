@@ -16,8 +16,8 @@ function App() {
 
   return (
     <>
-      <div className="w-full min-h-screen bg-gray-900">
-      <Navbar />
+      <div className="w-full">
+      {/* <Navbar /> */}
       <Hero />
       <Services/>
       <ProjectsSection/>

@@ -1,19 +1,21 @@
 import React from 'react'
 import { PlayCircleIcon } from 'lucide-react'
 import Hero12 from '../assets/hero_img.png'
+import { Navbar } from './Navbar'
 export const Hero = () => {
   return (
-    <div className="w-full bg-gray-900 relative overflow-hidden">
+    <div className="w-full min-h-screen bg-gray-900 relative overflow-hidden">
       {/* Background image with overlay */}
       <div
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-30"
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
           backgroundImage:`url(${Hero12})`,
           backgroundPosition: 'center 30%',
         }}
       ></div>
+      <Navbar/>
       {/* Content container */}
-      <div className="container mx-auto  py-20 md:py-32 relative z-10 px-[38px] lg:px-0">
+      <div className="container mx-auto  py-20 md:py-32 relative z-10 px-[38px] lg:px-0 flex flex-col h-[100vh] justify-center">
               <div className="max-w-2xl">
                 <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight">
                   Innovative Solutions For Your Digital Needs.
@@ -22,7 +24,7 @@ export const Hero = () => {
                   Customer satisfaction is at the core of our business philosophy. We
                   strive to build long-lasting relationships with our clients.
                 </p>
-                <button className="mt-8 bg-blue-500 hover:bg-blue-600 text-black px-8 py-3 rounded-md font-medium">
+                <button className="cursor-pointer mt-8 bg-blue-500 hover:bg-blue-600 text-black px-8 py-3 rounded-md font-medium">
                   Explore More
                 </button>
                 

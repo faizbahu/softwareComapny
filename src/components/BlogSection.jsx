@@ -79,7 +79,7 @@ export default function BlogSection() {
               <div className="mt-auto">
                 <a
                   href={post.url}
-                  className="inline-block bg-[#4a84ff] hover:bg-[#4a84ff]/90 text-black font-medium py-2 px-6 rounded-md transition-colors"
+                  className="cursor-pointer mt-8 bg-blue-500 hover:bg-blue-600 text-black px-8 py-3 rounded-md font-medium"
                 >
                   Read More
                 </a>

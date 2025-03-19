@@ -17,7 +17,7 @@ const Hero = () => {
       {/* Dark Overlay */}
       <div className="absolute inset-0 bg-black opacity-85" />
       {/* Content */}
-      <div className="relative w-full min-h-screen flex items-center px-6 md:px-16 lg:px-24">
+      <div className="relative w-full flex items-center px-6 md:px-16 lg:px-24">
         <div className="w-full max-w-7xl mx-auto flex flex-col lg:flex-row items-center lg:items-start justify-between gap-10 py-16">
           {/* Left section */}
           <div className="lg:max-w-md">
@@ -26,7 +26,7 @@ const Hero = () => {
               In Mind?
             </h1>
             <div className="items-center mt-8 flex flex-col sm:flex-row items-start sm:items-center gap-6">
-              <button className="px-6 py-3 bg-blue-600 text-black font-medium rounded hover:bg-blue-700 transition-colors">
+              <button className="cursor-pointer  bg-blue-500 hover:bg-blue-600 text-black px-8 py-3 rounded-md font-medium">
                 Let's Discuss
               </button>
               <div className="flex items-center gap-3">

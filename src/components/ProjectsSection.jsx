@@ -2,7 +2,7 @@ import React from 'react'
 import ProjectCarousel from './ProjectsCarousel'
 const ProjectsSection = () => {
   return (
-    <div className="w-full min-h-screen bg-[#141414] text-white py-24 px-6 md:px-12 lg:px-24">
+    <div className="w-full bg-[#141414] text-white py-24 px-6 md:px-12 lg:px-24">
       <div className="max-w-5xl mx-auto">
         <div className="mb-6">
         
