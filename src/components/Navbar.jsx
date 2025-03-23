@@ -109,7 +109,7 @@ export const Navbar = () => {
               {isPagesOpen && (
                 <div className="ml-4 mt-2 space-y-2">
                   <Link
-                    to="/services"
+                    to="/service"
                     className="block text-gray-300 text-sm hover:text-white"
                   >
                     Services
