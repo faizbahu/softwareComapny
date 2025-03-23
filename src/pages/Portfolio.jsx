@@ -8,7 +8,7 @@ import {reasons} from "../utils/data";
 import {processes} from "../utils/data";
 import Earth from "../assets/earth.png";
 import orbital from "../assets/orbital.png"
-import container from "../assets/container.png"
+import container from "../assets/Container.png"
 export default function Portfolio() {
   return (
     <>
