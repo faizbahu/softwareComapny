@@ -81,7 +81,7 @@ const HomePage = () => {
       </div>
       <div className="bg-[#111112] relative overflow-hidden">
         {/* Background Grid Pattern */}
-        <div className="absolute inset-0 opacity-10">
+        <div className=" inset-0 opacity-10">
           <div
             className="w-full h-full border-[0.5px] border-white/10"
             style={{
