@@ -84,6 +84,7 @@ export default function Service() {
           {/* Service Cards */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
             {servicesPage.map((service) => (
+              <Link to='/serviceDetails'>
               <div
                 key={service.id}
                 className="bg-[#333437] rounded-3xl p-8 flex flex-col h-full transition-all duration-300 hover:shadow-[0_0_15px_rgba(74,132,255,0.15)]"
@@ -99,6 +100,7 @@ export default function Service() {
                   <ArrowRight className="w-4 h-4 text-white" />
                 </button>
               </div>
+              </Link>
             ))}
           </div>
         </div>

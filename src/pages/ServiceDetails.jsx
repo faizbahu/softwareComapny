@@ -122,7 +122,7 @@ export default function ServiceDetails() {
                 </p>
               </div>
             </div>
-            <div className="flex-1">
+            <div className="flex-1 max-w-[320px]">
               <div className="mb-8 bg-[#2C2E32]">
                 {servicesDetails.map((service, index) => (
                   <div key={index} className="border-b border-gray-700">

@@ -2,6 +2,7 @@ import React, { Fragment } from "react";
 import { useState } from "react";
 import { PlayCircleIcon } from "lucide-react";
 import Hero12 from "../assets/hero_img.png";
+import ChooseUs from "../assets/chooseUs.png";
 import { Navbar } from "../components/Navbar";
 import { ArrowLeft, ArrowRight, Star } from "lucide-react";
 import { services } from "../utils/data";
@@ -15,6 +16,9 @@ import AccordionItem from "../components/AccordianItem";
 import { accordionData } from "../utils/data";
 import { Clock, CircleUserRound } from "lucide-react";
 import { blogPosts } from "../utils/data";
+import consent from "../assets/consent.png";
+import { CircleCheck } from "lucide-react";
+import LongSection from "../assets/longSection.png";
 
 const HomePage = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -75,7 +79,7 @@ const HomePage = () => {
           </div>
         </div>
       </div>
-      <div className="bg-[#111112] py-16 px-4 relative overflow-hidden">
+      <div className="bg-[#111112] relative overflow-hidden">
         {/* Background Grid Pattern */}
         <div className="absolute inset-0 opacity-10">
           <div
@@ -87,8 +91,70 @@ const HomePage = () => {
             }}
           ></div>
         </div>
+        <div className="bg-[#1C1D20] text-white md:py-24">
+        <div className="pb-24">
+            <img src={LongSection} alt="" />
+          </div>
+        <div className="container mx-auto px-4">
+          
+          <div className="flex flex-col md:flex-row md:items-center gap-8">
+            {/* Image Section */}
+            <div className="md:w-1/2">
+              <div className="rounded-lg overflow-hidden">
+                <img
+                  src={consent}
+                  alt="Business meeting with professionals collaborating"
+                  className="object-cover"
+                />
+              </div>
+            </div>
+            {/* Content Section */}
+            <div className="md:w-1/2 space-y-6">
+              <div className="w-fit bg-[#333437] text-blue-500 text-sm py-2 px-6 rounded-full">
+                About our company
+              </div>
+              {/* <p className="text-blue-500 text-sm">Meet our company</p> */}
+              <h1 className="text-3xl md:text-4xl font-bold leading-tight">
+                Innovative Advisory <br />
+                Business Solutions.
+              </h1>
+              <p className="text-gray-300 text-sm md:text-base">
+              Excepteur sint occaecat cupidatat officia non proident <br />
+              sunt in culpa qui deserunt.
+              </p>
+              {/* Bullet Points */}
+              <div className="space-y-3 pt-2">
+                <div className="flex items-center gap-2">
+                  <CircleCheck className="text-blue-500 w-5 h-5" />
+                  <span className="text-sm md:text-base">
+                    Free Consultation
+                  </span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <CircleCheck className="text-blue-500 w-5 h-5" />
+                  <span className="text-sm md:text-base">
+                    100% Certified Teams
+                  </span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <CircleCheck className="text-blue-500 w-5 h-5" />
+                  <span className="text-sm md:text-base">
+                    Step-by-Step Client Support
+                  </span>
+                </div>
+              </div>
+              {/* CTA Button */}
+              <div className="pt-2">
+                <button className="cursor-pointer font-medium bg-white hover:bg-black hover:text-white text-black px-6 py-2 rounded transition-colors">
+                  About Us
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
-        <div className="max-w-7xl mx-auto relative z-10">
+        <div className="max-w-7xl mx-auto relative z-10 py-24">
           {/* Section Label */}
           <div className="flex justify-center mb-4">
             <div className="bg-[#333437] text-[#8A8A8A] text-sm py-2 px-6 rounded-full">
@@ -327,7 +393,7 @@ const HomePage = () => {
         </div>
       </div>
 
-      <div className="w-full bg-[#121212] text-white py-16 px-4">
+      <div className="w-full bg-[#1C1D20] text-white py-16 px-4">
         <div className="max-w-5xl mx-auto flex flex-col sm:flex-row justify-between items-center">
           {stats.map((stat, index) => (
             <Fragment key={index}>
@@ -345,10 +411,13 @@ const HomePage = () => {
         </div>
       </div>
 
-      <div className="w-full bg-[#121212] flex justify-center items-center p-4">
+      <div className="w-full bg-[#1C1D20] flex justify-center items-center p-4 gap-[70px]">
+      <div className="flex justify-end">
+          <img className="w-[70%]" src={ChooseUs} alt="" />
+        </div>
         <div className="max-w-xl w-full py-16">
           <div className="mb-3 text-center lg:text-left">
-            <span className="text-xs font-medium bg-[#2c2d33] text-gray-300 px-3 py-1 rounded-full">
+            <span className="text-xs font-medium bg-[#2c2d33] text-[#4a84ff] px-3 py-1 rounded-full">
               Our Benefit
             </span>
           </div>
@@ -371,7 +440,7 @@ const HomePage = () => {
         </div>
       </div>
 
-      <div className="bg-[#121212] py-16 md:py-24 px-4">
+      <div className="bg-[#1C1D20] py-16 md:py-24 px-4">
         <div className="max-w-7xl mx-auto">
           {/* Section Label */}
           <div className="flex justify-center mb-3">

@@ -25,7 +25,7 @@ export default function BlogPage() {
         ></div>
         <Navbar />
         {/* Content container */}
-        <div className="bg-[#1F1E28] opacity-60 z-0 container mx-auto  py-20 md:py-32 relative z-10 px-[38px] lg:px-0 flex flex-col h-[100vh] justify-center">
+        <div className=" z-0 container mx-auto  py-20 md:py-32 relative  px-[38px] lg:px-0 flex flex-col h-[100vh] justify-center">
           <div className="max-w-2xl">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight">
               Blog Page
@@ -56,7 +56,7 @@ export default function BlogPage() {
           </div>
         </div>
       </div>
-      <div className="bg-[#121212] py-16 md:py-24 px-4">
+      <div className="bg-[#1C1D20] py-16 md:py-24 px-4">
         <div className="max-w-7xl mx-auto">
           {/* Section Label */}
           <div className="flex justify-center mb-3">

@@ -26,7 +26,7 @@ export default function Portfolio() {
   <Navbar />
 
   {/* Content */}
-  <div className="container mx-auto py-20 md:py-32 relative z-10 px-[38px] lg:px-0 flex flex-col h-[100vh] justify-center">
+  <div className="container mx-auto py-20 md:py-32 relative z-0 px-[38px] lg:px-0 flex flex-col h-[100vh] justify-center">
     <div className="max-w-2xl">
       <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight">
       Project Page
