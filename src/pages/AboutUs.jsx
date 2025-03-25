@@ -78,7 +78,7 @@ export default function AboutUs() {
             </span>
           </h1>
         </div>
-        <div className="w-full max-w-2xl rounded-lg overflow-hidden shadow-xl z-[0] relative mt-16 mb-24 mx-auto">
+        <div className="w-full max-w-2xl rounded-lg overflow-hidden shadow-xl z-[0] relative mt-16 mb-24 mx-auto px-5">
           <img
             src={Group}
             alt="Two professionals collaborating at a desk"
@@ -186,7 +186,7 @@ export default function AboutUs() {
                 </div>
 
                 {/* Text Section */}
-                <div className="p-4 relative z-10">
+                <div className="p-4 relative z-10 text-center lg:text-left">
                   <h3 className="text-white text-lg font-semibold">
                     {member.name}
                   </h3>
@@ -217,11 +217,11 @@ export default function AboutUs() {
         </div>
       </div>
 
-      <div className="gap-[70px] w-full bg-[#1C1D20] flex justify-center items-center p-4 py-24">
-        <div className="flex justify-end">
+      <div className="gap-[70px] w-full bg-[#1C1D20] flex flex-col lg:flex-row justify-center items-center p-4 lg:py-24">
+        <div className="flex justify-center lg:justify-end">
           <img className="w-[70%]" src={ChooseUs} alt="" />
         </div>
-        <div className="max-w-xl w-full py-16">
+        <div className="max-w-xl w-full lg:py-16 px-12 lg:px-0">
           <div className="mb-3 text-center lg:text-left">
             <span className="text-xs font-medium bg-[#2c2d33] text-[#4a84ff] px-3 py-1 rounded-full">
               Our Benefit
@@ -270,7 +270,7 @@ export default function AboutUs() {
               For Free Consultation 
                 
               </h1>
-              <div className="justify-center mt-8 flex flex-col sm:flex-row items-start sm:items-center gap-6">
+              <div className="justify-center mt-8 flex flex-col sm:flex-row items-center lg:items-start sm:items-center gap-6">
                 <button className="cursor-pointer  bg-blue-500 hover:bg-blue-600 text-black px-8 py-3 rounded-md font-medium">
                   Let's Discuss
                 </button>

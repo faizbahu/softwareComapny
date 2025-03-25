@@ -68,7 +68,7 @@ export default function Service() {
         </div>
       </div>
       <div className="bg-[#111112]">
-        <div className="max-w-7xl  mx-auto relative z-10 py-24">
+        <div className="max-w-7xl  mx-auto relative z-10 py-24 px-12 lg:px-0">
           {/* Section Label */}
           <div className="flex justify-center mb-4">
             <div className="bg-[#333437] text-[#8A8A8A] text-sm py-2 px-6 rounded-full">
@@ -134,7 +134,7 @@ export default function Service() {
                   </div>
 
                   <div
-                    className={`grid grid-cols-1 md:grid-cols-2 gap-[190px] items-center ${
+                    className={`grid grid-cols-1 md:grid-cols-2 gap-12 lg:gap-[190px] items-center px-12 lg:px-0 ${
                       index % 2 === 0 ? "" : "md:grid-flow-dense"
                     }`}
                   >
@@ -206,9 +206,9 @@ export default function Service() {
 
               {/* Services */}
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                <div>
+                <div className="text-center lg:text-left">
                   <div className="items-center mb-4">
-                    <div className="w-10 h-10 mr-4">
+                    <div className="w-10 h-10 lg:mr-4 m-auto lg:m-0">
                      <img src={direction} alt="" />
                     </div>
                     <h3 className="my-4 text-lg font-semibold uppercase tracking-wider">BRANDING STRATEGY</h3>
@@ -218,9 +218,9 @@ export default function Service() {
                   </p>
                 </div>
 
-                <div>
+                <div className="text-center lg:text-left">
                   <div className="items-center mb-4">
-                    <div className="w-10 h-10 mr-4">
+                    <div className="w-10 h-10 lg:mr-4 m-auto lg:m-0">
                     <img src={direction1} alt="" />
                     </div>
                     <h3 className="my-4 text-lg font-semibold uppercase tracking-wider">CONTENT CREATION</h3>
@@ -236,7 +236,7 @@ export default function Service() {
       </section>
 
       {/* Strategies Section */}
-      <section className="py-16 md:py-24 px-4">
+      <section className="py-16 md:py-24 px-12 lg:px-4">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-4xl md:text-5xl font-bold mb-16">
             Creative Strategies
@@ -308,7 +308,7 @@ export default function Service() {
             <div className="border-t border-gray-700"></div>
           </div>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-20 mt-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-20 mt-16 text-center lg:text-left ">
           {statsPage.map((stat, index) => (
             <div key={index} className="flex flex-col">
               <span className="text-3xl md:text-4xl font-bold mb-2">

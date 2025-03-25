@@ -92,10 +92,10 @@ const HomePage = () => {
           ></div>
         </div>
         <div className="bg-[#1C1D20] text-white md:py-24">
-        <div className="pb-24">
+        <div className="lg:pb-24 py-12 lg:py-0">
             <img src={LongSection} alt="" />
           </div>
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-4 pb-24 lg:pb-0">
           
           <div className="flex flex-col md:flex-row md:items-center gap-8">
             {/* Image Section */}
@@ -154,7 +154,7 @@ const HomePage = () => {
         </div>
       </div>
 
-        <div className="max-w-7xl mx-auto relative z-10 py-24">
+        <div className="max-w-7xl mx-auto relative z-10 py-24 px-12 lg:px-0">
           {/* Section Label */}
           <div className="flex justify-center mb-4">
             <div className="bg-[#333437] text-[#8A8A8A] text-sm py-2 px-6 rounded-full">
@@ -340,7 +340,7 @@ const HomePage = () => {
                 Have Any Project <br />
                 In Mind?
               </h1>
-              <div className="items-center mt-8 flex flex-col sm:flex-row items-start sm:items-center gap-6">
+              <div className="items-center mt-8 flex flex-col sm:flex-row lg:items-start sm:items-center gap-6">
                 <button className="cursor-pointer  bg-blue-500 hover:bg-blue-600 text-black px-8 py-3 rounded-md font-medium">
                   Let's Discuss
                 </button>
@@ -411,11 +411,11 @@ const HomePage = () => {
         </div>
       </div>
 
-      <div className="w-full bg-[#1C1D20] flex justify-center items-center p-4 gap-[70px]">
-      <div className="flex justify-end">
+      <div className="w-full bg-[#1C1D20] flex justify-center items-center p-4 gap-[70px] flex-col lg:flex-row">
+      <div className="flex justify-center lg:justify-end">
           <img className="w-[70%]" src={ChooseUs} alt="" />
         </div>
-        <div className="max-w-xl w-full py-16">
+        <div className="max-w-xl w-full py-16 px-12 lg:px-0">
           <div className="mb-3 text-center lg:text-left">
             <span className="text-xs font-medium bg-[#2c2d33] text-[#4a84ff] px-3 py-1 rounded-full">
               Our Benefit
@@ -440,7 +440,7 @@ const HomePage = () => {
         </div>
       </div>
 
-      <div className="bg-[#1C1D20] py-16 md:py-24 px-4">
+      <div className="bg-[#1C1D20] py-16 md:py-24 px-12 lg:px-4">
         <div className="max-w-7xl mx-auto">
           {/* Section Label */}
           <div className="flex justify-center mb-3">

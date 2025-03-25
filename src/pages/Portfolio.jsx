@@ -55,7 +55,7 @@ export default function Portfolio() {
   </div>
 </div>
 <div className="bg-[#1C1D20] py-16 px-4">
-      <div className="max-w-4xl mx-auto">
+      <div className="max-w-4xl mx-auto px-10 lg:px-0">
         {/* Section Label */}
         <div className="flex justify-center ">
           <div className="bg-[#333437] text-[#4A84FF] text-sm py-2 px-6 rounded-full inline-block">Our Project</div>
@@ -118,7 +118,7 @@ export default function Portfolio() {
     </div>
 
     <div className="bg-[#111112] text-white py-16 md:py-24 px-4">
-      <div className="max-w-7xl mx-auto">
+      <div className="max-w-7xl mx-auto px-12 lg:px-0">
         {/* Heading */}
         <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-center mb-16 max-w-4xl mx-auto leading-tight">
           Here Are Some Reasons
@@ -166,7 +166,7 @@ export default function Portfolio() {
     </div>
 
 
-    <div className="bg-[#1B1CF] py-16 md:py-24 px-4">
+    <div className="bg-[#1B1CF] py-16 md:py-24 lg:px-4 px-12">
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col md:flex-row justify-between items-center mb-16">
           {/* Heading */}

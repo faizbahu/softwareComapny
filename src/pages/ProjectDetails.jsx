@@ -94,7 +94,7 @@ export default function Portfolio() {
           </div>
 
           {/* Project Details Card */}
-          <div className="w-[230px] bg-[#2c2e32] text-white p-8 rounded-xl max-w-xl absolute right-8 bottom-0 translate-y-1/3 shadow-lg">
+          <div className="hidden w-[230px] bg-[#2c2e32] text-white p-8 rounded-xl max-w-xl absolute right-8 bottom-0 translate-y-1/3 shadow-lg">
             <div className="space-y-6">
               <div>
                 <h3 className="text-lg font-medium mb-1">Project Name:</h3>
@@ -172,7 +172,7 @@ export default function Portfolio() {
 
 
     <div className="bg-[#111112] text-white py-16 md:py-24 px-4 rounded-3xl">
-      <div className="max-w-7xl mx-auto">
+      <div className="max-w-7xl mx-auto px-12 lg:px-0">
         {/* Heading */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">How We Drive Your Success</h2>

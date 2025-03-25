@@ -56,7 +56,7 @@ export default function BlogPage() {
           </div>
         </div>
       </div>
-      <div className="bg-[#1C1D20] py-16 md:py-24 px-4">
+      <div className="bg-[#1C1D20] py-16 md:py-24 px-12 lg:px-4">
         <div className="max-w-7xl mx-auto">
           {/* Section Label */}
           <div className="flex justify-center mb-3">
