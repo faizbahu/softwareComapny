@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { MenuIcon, X, ChevronDown } from "lucide-react";
 import { Link, useLocation } from "react-router-dom";
+import Logo from "../assets/Asset 8@4x.png"; // Assuming you have a logo image
 
 export const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -18,12 +19,12 @@ export const Navbar = () => {
       <div className="relative container mx-auto flex justify-between items-center py-4 px-6 text-white z-10">
         {/* Logo */}
         <div className="flex items-center">
-          <div className="flex items-center justify-center bg-white rounded-full h-6 w-6 mr-2">
+          {/* <div className="flex items-center justify-center bg-white rounded-full h-6 w-6 mr-2">
             <div className="bg-gray-900 rounded-full h-4 w-4 flex items-center justify-center">
               <span className="text-white text-xs">●</span>
             </div>
-          </div>
-          <span className="font-medium">LOGO Here</span>
+          </div> */}
+          <img className="w-[57px]" src={Logo} alt="" />
         </div>
 
         {/* Desktop Navigation */}

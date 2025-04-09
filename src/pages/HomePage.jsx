@@ -218,36 +218,6 @@ const HomePage = () => {
             {/* Left side - Image */}
             <div className="relative mx-auto md:mx-0 max-w-md">
               {/* Decorative curved lines */}
-              {/* <div className="absolute -right-4 top-1/4 w-full h-full z-0">
-              <svg
-                width="300"
-                height="300"
-                viewBox="0 0 300 300"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-                className="w-full h-full opacity-20"
-              >
-                <path
-                  d="M150,10 C223.5,10 283,69.5 283,143 C283,216.5 223.5,276 150,276 C76.5,276 17,216.5 17,143 C17,69.5 76.5,10 150,10 Z"
-                  stroke="#CCCCCC"
-                  strokeWidth="1"
-                  fill="none"
-                />
-                <path
-                  d="M150,40 C206.5,40 253,86.5 253,143 C253,199.5 206.5,246 150,246 C93.5,246 47,199.5 47,143 C47,86.5 93.5,40 150,40 Z"
-                  stroke="#CCCCCC"
-                  strokeWidth="1"
-                  fill="none"
-                />
-                <path
-                  d="M150,70 C189.5,70 222,102.5 222,143 C222,183.5 189.5,216 150,216 C110.5,216 78,183.5 78,143 C78,102.5 110.5,70 150,70 Z"
-                  stroke="#CCCCCC"
-                  strokeWidth="1"
-                  fill="none"
-                />
-              </svg>
-            </div> */}
-
               {/* Image with frame effect */}
 
               <div className="">

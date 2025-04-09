@@ -73,14 +73,7 @@ export default function Portfolio() {
         <div className="flex flex-col lg:flex-row gap-8">
           {/* Left content - Image and text */}
           <div className="">
-            {/* 3D Visualization */}
-            {/* <div className="bg-gradient-to-br from-purple-600 to-purple-800 rounded-lg mb-8 h-80 sm:h-96 relative overflow-hidden">
-              <img
-                src={figure}
-                alt="3D visualization of a businessman on a platform"
-                className="w-full h-full object-cover"
-              />
-            </div> */}
+            
             <div className="relative mb-12">
           {/* Purple Background with 3D Character */}
           <div className="rounded-xl overflow-hidden">
@@ -155,17 +148,7 @@ export default function Portfolio() {
             </div>
           </div>
           {/* Right sidebar - Project details */}
-          {/* <div className="lg:w-1/3">
-            <div className="bg-gray-900 rounded-lg p-6">
-              <h3 className="font-bold mb-6">Project Name:</h3>
-              <h3 className="font-bold mb-2">Client:</h3>
-              <p className="text-gray-400 mb-6">CloudBridge</p>
-              <h3 className="font-bold mb-2">Duration:</h3>
-              <p className="text-gray-400 mb-6">6 months</p>
-              <h3 className="font-bold mb-2">Cost:</h3>
-              <p className="text-gray-400">$$$</p>
-            </div>
-          </div> */}
+         
         </div>
       </div>
     </div>

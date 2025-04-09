@@ -121,13 +121,7 @@ export default function BlogPage() {
           <div className="flex flex-col md:flex-row items-center md:items-start gap-8 md:gap-12 lg:gap-16">
             {/* Left section with images */}
             <div className="w-full md:w-2/5 relative">
-              {/* <div className="rounded-lg overflow-hidden">
-              <img
-                src="https://uploadthingy.s3.us-west-1.amazonaws.com/i5pJwXR6zSKNZjZCUeGSTs/image.png"
-                alt="Business professionals in suits"
-                className="w-full h-auto"
-              />
-            </div> */}
+              
               {/* Client count and avatars */}
               <div className="flex items-end gap-5">
               <div className="">

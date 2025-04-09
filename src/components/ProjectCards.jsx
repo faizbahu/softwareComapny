@@ -8,10 +8,7 @@ const ProjectCard = ({ project }) => {
           alt={project.name}
           className="w-full h-full object-cover"
         />
-        {/* <div className="absolute top-4 left-4 bg-[#1e1e1e] bg-opacity-80 px-3 py-1 rounded-full flex items-center">
-          <div className="w-2 h-2 bg-gray-400 rounded-full mr-2"></div>
-          <span className="text-sm text-gray-300">Orbital</span>
-        </div> */}
+        
       </div>
       <div className="p-6 flex-[2]">
       <img

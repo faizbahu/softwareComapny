@@ -1,5 +1,5 @@
 import { Facebook, Instagram, Linkedin, Send, Twitter } from "lucide-react"
-
+import Logo from "../assets/Asset 8@4x.png";
 export default function Footer() {
   return (
     <footer className="bg-[#2C2E32] text-white py-16">
@@ -8,10 +8,10 @@ export default function Footer() {
           {/* Logo and Contact Info */}
           <div className="space-y-6">
             <div className="flex items-center">
-              <div className="w-10 h-10 bg-white rounded-full flex items-center justify-center mr-3">
+              {/* <div className="w-10 h-10 bg-white rounded-full flex items-center justify-center mr-3">
                 <span className="text-[#2c2e32] text-xs font-bold"></span>
-              </div>
-              <span className="text-lg font-medium">LOGO Here</span>
+              </div> */}
+              <img className="w-[57px]" src={Logo} alt="" />
             </div>
 
             <div className="space-y-4">

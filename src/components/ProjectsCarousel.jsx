@@ -11,7 +11,6 @@ const projectsData = [
     name: 'CloudBridge',
     image: bags,
     icon: orbital,
-    // (<img src={bags} alt="E-mail Marketing"/>),
     description:
       "Business strategy: the integral components of any organization's success. Business helps to be profitable.",
     clientName: 'IntelliWeb LLC',
