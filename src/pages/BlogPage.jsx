@@ -103,12 +103,11 @@ export default function BlogPage() {
 
                 {/* Read More Button */}
                 <div className="mt-auto">
-                  <a
-                    href={post.url}
+                  <Link to="/blogDetails"
                     className="cursor-pointer mt-8 bg-white text-black px-8 py-3 rounded-md font-medium"
                   >
                     Read More
-                  </a>
+                  </Link>
                 </div>
               </div>
             ))}

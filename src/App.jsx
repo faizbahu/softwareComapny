@@ -9,6 +9,9 @@ import ServiceDetails from "./pages/ServiceDetails";
 import Service from "./pages/Service";
 import About from "./pages/AboutUs";
 import Contact from './pages/Contact';
+import BlogDetails from './pages/BlogDetails';
+import JobDetailsPage from './pages/JobDetailsPage';
+import CareersPage from './pages/CareersPage';
 function App() {
 
   return (
@@ -22,6 +25,9 @@ function App() {
       <Route path="/service" element={<Service />} />
       <Route path="/about" element={<About />} />
       <Route path="/contact" element={<Contact />} />
+      <Route path="/blogDetails" element={<BlogDetails />} />
+      <Route path="/jobDetails" element={<JobDetailsPage />} />
+      <Route path="/careerPage" element={<CareersPage />} />
     </Routes>
     <Footer/> 
   </Router>

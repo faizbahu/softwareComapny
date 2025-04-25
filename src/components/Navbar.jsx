@@ -63,10 +63,16 @@ export const Navbar = () => {
                   Portfolio
                 </Link>
                 <Link
-                  to="/testimonials"
+                  to="/careerPage"
                   className={`block px-4 py-2 text-sm hover:bg-gray-700 ${isActive("/testimonials") ? "text-blue-500" : "text-gray-300"}`}
                 >
-                  Testimonials
+                  Careers
+                </Link>
+                <Link
+                  to="/jobDetails"
+                  className={`block px-4 py-2 text-sm hover:bg-gray-700 ${isActive("/testimonials") ? "text-blue-500" : "text-gray-300"}`}
+                >
+                  Job Details
                 </Link>
               </div>
             </div>
@@ -138,11 +144,17 @@ export const Navbar = () => {
                     Portfolio
                   </Link>
                   <Link
-                    to="/testimonials"
-                    className={`block text-sm hover:text-white ${isActive("/testimonials") ? "text-blue-500" : "text-gray-300"}`}
-                  >
-                    Testimonials
-                  </Link>
+                  to="/careerPage"
+                  className={`block px-4 py-2 text-sm hover:bg-gray-700 ${isActive("/testimonials") ? "text-blue-500" : "text-gray-300"}`}
+                >
+                  Careers
+                </Link>
+                <Link
+                  to="/jobDetails"
+                  className={`block px-4 py-2 text-sm hover:bg-gray-700 ${isActive("/testimonials") ? "text-blue-500" : "text-gray-300"}`}
+                >
+                  Job Details
+                </Link>
                 </div>
               )}
             </div>
