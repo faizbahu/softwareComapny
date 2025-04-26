@@ -145,13 +145,13 @@ export const Navbar = () => {
                   </Link>
                   <Link
                   to="/careerPage"
-                  className={`block px-4 py-2 text-sm hover:bg-gray-700 ${isActive("/testimonials") ? "text-blue-500" : "text-gray-300"}`}
+                  className={`block text-sm hover:bg-gray-700 ${isActive("/testimonials") ? "text-blue-500" : "text-gray-300"}`}
                 >
                   Careers
                 </Link>
                 <Link
                   to="/jobDetails"
-                  className={`block px-4 py-2 text-sm hover:bg-gray-700 ${isActive("/testimonials") ? "text-blue-500" : "text-gray-300"}`}
+                  className={`block  text-sm hover:bg-gray-700 ${isActive("/testimonials") ? "text-blue-500" : "text-gray-300"}`}
                 >
                   Job Details
                 </Link>
