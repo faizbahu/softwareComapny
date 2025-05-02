@@ -240,7 +240,7 @@ export default function CareersPage() {
       </div>
     </div>
     <div className="min-h-screen bg-[#1C1D20] py-16 md:py-24 ">
-      <div className="justify-center gap-[120px] mx-auto flex  items-center ">
+      <div className="justify-center gap-[120px] mx-auto flex flex-col md:flex-row items-center ">
         
         <div>
         <h1 className="text-4xl md:text-5xl font-bold mb-4">What our  <br />  Teams ays</h1>
@@ -250,8 +250,8 @@ export default function CareersPage() {
           ullamco laboris nisi ut aliquip ex ea commodo.
         </p>
         </div>
-        <div className="flex gap-[30px]">
-        <div className="flex flex-col gap-[30px]">
+        <div className="flex flex-col md:flex-row md:gap-[30px]">
+        <div className="flex flex-col md:flex-row md:gap-[30px]">
         <TestimonialCard
         quote="The best place to work"
         testimonial="Lorem ipsum dolor sit amet dolor sit consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minim"

@@ -7,15 +7,15 @@ export default function JobDetailsPage() {
     <Navbar />
     <main className="container mx-auto px-4 py-8 relative mt-[90px]">
         {/* Job Header */}
-        <div  style={{
+        <div style={{
       background:
         "linear-gradient(180deg, rgba(20, 78, 227, 0) 0%, rgba(20, 78, 227, 1) 100%)",
-    }} className="relative h-[386px] rounded-lg p-4 md:p-8 mb-32">
-          <div className="max-w-3xl mx-auto">{/* Job content will be placed here */}</div>
+    }} className="hidden md:block relative h-[386px] rounded-lg p-4 md:p-8 mb-32">
+          <div className=" max-w-3xl mx-auto">{/* Job content will be placed here */}</div>
         </div>
 
         {/* Job Details Card */}
-        <div className="absolute top-[10%] left-1/2 transform -translate-x-1/2 max-w-3xl bg-[#2A2B36] rounded-2xl shadow-xl overflow-hidden">
+        <div className="md:absolute top-[10%] left-1/2 transform md:-translate-x-1/2 max-w-3xl bg-[#2A2B36] rounded-2xl shadow-xl overflow-hidden">
           <div className="p-8 md:p-12">
             {/* Job Tags */}
             <div className="flex flex-wrap gap-4 mb-4 text-sm">
@@ -79,7 +79,7 @@ export default function JobDetailsPage() {
         </div>
 
         {/* More Positions */}
-        <div className="max-w-6xl mx-auto mt-[560px] mb-12">
+        <div className="max-w-6xl mx-auto mt-[50px] md:mt-[560px] mb-12">
           <div className="flex justify-between items-center mb-8">
             <h2 className="text-2xl font-bold">More open positions</h2>
             <button className="bg-[#2A2B36] hover:bg-gray-700 text-white px-4 py-2 rounded-md text-sm transition">
